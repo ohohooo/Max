@@ -729,14 +729,14 @@ def lineBot(op):
                             mc += "\n╠ "+line.getContact(mi_d).displayName
                         line.sendMessage(msg.to,mc + "\n╚══[ Finish ]")
                     
-                elif "ทำตาม" in msg.text.lower():
+                elif "mimic" in msg.text.lower():
                     sep = text.split(" ")
                     mic = text.replace(sep[0] + " ","")
-                    if mic == "เปิด":
+                    if mic == "on":
                         if settings["mimic"]["status"] == False:
                             settings["mimic"]["status"] = True
                             line.sendMessage(msg.to,"Reply Message on")
-                    elif mic == "ปิด":
+                    elif mic == "off":
                         if settings["mimic"]["status"] == True:
                             settings["mimic"]["status"] = False
                             line.sendMessage(msg.to,"Reply Message off")
