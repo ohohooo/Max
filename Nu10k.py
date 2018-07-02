@@ -16,66 +16,61 @@ botStart = time.time()
 #line = LINE()
 #line = LINE("AuthToken")
 #line = LINE("Email","Password")
-line = LINE("EuoRw38Yo2QKjZSpqrIf.4YSrMg2oNLZ3c2qS97Qi+W.b52TU046HQ4qqrSsgzrxof+xV+CAZISc4hq4y8Fvp8o=")
-#line.log("Auth Token : " + str(line.authToken))
-#channelToken = line.getChannelResult()
-#line.log("Channel Token : " + str(channelToken))
+line = LINE()
+line.log("Auth Token : " + str(line.authToken))
+channelToken = line.getChannelResult()
+line.log("Channel Token : " + str(channelToken))
 
-#ki1 = LINE()
-#ki1.log("Auth Token : " + str(line.authToken))
-#channelToken = line.getChannelResult()
-#ki1.log("Channel Token : " + str(channelToken))
+ki1 = LINE()
+ki1.log("Auth Token : " + str(line.authToken))
+channelToken = ki1.getChannelResult()
+ki1.log("Channel Token : " + str(channelToken))
 
-#ki2 = LINE()
-#ki2.log("Auth Token : " + str(line.authToken))
-#channelToken = ki2.getChannelResult()
-#ki2.log("Channel Token : " + str(channelToken))
+ki2 = LINE()
+ki2.log("Auth Token : " + str(line.authToken))
+channelToken = ki2.getChannelResult()
+ki2.log("Channel Token : " + str(channelToken))
 
-#ki3 = LINE()
-#ki3.log("Auth Token : " + str(line.authToken))
-#channelToken = ki3.getChannelResult()
-#ki3.log("Channel Token : " + str(channelToken))
+ki3 = LINE()
+ki3.log("Auth Token : " + str(line.authToken))
+channelToken = ki3.getChannelResult()
+ki3.log("Channel Token : " + str(channelToken))
 
-#ki4 = LINE()
-#ki4.log("Auth Token : " + str(line.authToken))
-#channelToken = ki4.getChannelResult()
-#ki4.log("Channel Token : " + str(channelToken))
+ki4 = LINE()
+ki4.log("Auth Token : " + str(line.authToken))
+channelToken = ki4.getChannelResult()
+ki4.log("Channel Token : " + str(channelToken))
 
-#ki5 = LINE()
-#ki5.log("Auth Token : " + str(line.authToken))
-#channelToken = ki5.getChannelResult()
-#ki5.log("Channel Token : " + str(channelToken))
+ki5 = LINE()
+ki5.log("Auth Token : " + str(line.authToken))
+channelToken = ki5.getChannelResult()
+ki5.log("Channel Token : " + str(channelToken))
 
-#ki6 = LINE()
-#ki6.log("Auth Token : " + str(line.authToken))
-#channelToken = ki6.getChannelResult()
-#ki6.log("Channel Token : " + str(channelToken))
+ki6 = LINE()
+ki6.log("Auth Token : " + str(line.authToken))
+channelToken = ki6.getChannelResult()
+ki6.log("Channel Token : " + str(channelToken))
 
-#line = LINE()
-#line.log("Auth Token : " + str(line.authToken))
-#channelToken = line.getChannelResult()
-#line.log("Channel Token : " + str(channelToken))
+ki7 = LINE()
+ki7.log("Auth Token : " + str(line.authToken))
+channelToken = ki7.getChannelResult()
+ki7.log("Channel Token : " + str(channelToken))
 
-#line = LINE()
-#line.log("Auth Token : " + str(line.authToken))
-#channelToken = line.getChannelResult()
-#line.log("Channel Token : " + str(channelToken))
+ki8 = LINE()
+ki8.log("Auth Token : " + str(line.authToken))
+channelToken = ki8.getChannelResult()
+ki8.log("Channel Token : " + str(channelToken))
 
-#line = LINE()
-#line.log("Auth Token : " + str(line.authToken))
-#channelToken = line.getChannelResult()
-#line.log("Channel Token : " + str(channelToken))
+ki9 = LINE()
+ki9.log("Auth Token : " + str(line.authToken))
+channelToken = ki9.getChannelResult()
+ki9.log("Channel Token : " + str(channelToken))
 
-ki1 = LINE("EuXvCfe1lajSpX61jRhd.ZumT2/Y29n7tOJ4IwPo4tq.lPxnpuUPqaxLsSnVUZHrIbrp7p4sRIHrTUw7CPoJmbo=")
-ki2 = LINE("EuqqDtwkwUzR14ue272d.SPS+quoffhJbcv30K1vAdq.a4/4apiC9aHDcRQYg2eWWNDpqynXMdIFRfeRn+NVtuU=")
-ki3 = LINE("EuHBVYHuF1gYZrqwDyN0.ZaBHUQRqncLKKv+uKgw/qa.C3VHpotcN/Drd83PpalJEtmDWfKnqA9e6XXk7HDFuz8=")
-ki4 = LINE("EusiXLjH3D1zz1sQOAle.lVN3XpWByvHZ/lHSAQFaBG.eZui+m6+4yBoIBfBdYabdmGwLXAPUFzJM4VdyybXCOQ=")
-ki5 = LINE("EuFtp1wgj4ETtJifiHP6.cdT8NvikzoSR6giT9NCWXG.1vUpI9y63rwVaePnAujUffPDPocjqgY/12VnWewYedI=")
-ki6 = LINE("Eu23QXsL6G7IyQeERvN5.4ncHhhZkEbPPMUBZseq2jq.0qBlAsx0aJJNkGJXvsB3HOU3TGqNuB6ZvckkpeNKN4A=")
-ki7 = LINE("Eun0qtJ6TK1A0U9bxRX4.EXuzrKv2zcsTMAbmIzk69a.TZljMsrqJsl6gg8ZYCXxFBazDvkFFjbnucSYGVnUmMg=")
-ki8 = LINE("EuEI1iUJoxtcMCdjAwXa.O9c5p841tRUgzA9d0PcAkG.BmkT3cVrFLnqV5SDsGHtV2R+Bwk4tH7HpLYcJY1FbCk=")
-ki9 = LINE("EuB2nqViXB9yVC6Hv4id.dCZhkZtrJsP18XdGxTjDlq.lfF8ng308Ftvk0pwuhDN9xyhwzsJdtF8Rc5kytYYCd4=")
-ki10 = LINE("EuzzT05VEW5hnfk4S6v3.NONcEvn2cxU/zuRhr3ZHOW.1EusstaqkeTioe+S1j8fscJMoh2+NTFjrt/yDiclAp0=")
+ki10 = LINE()
+ki10.log("Auth Token : " + str(line.authToken))
+channelToken = ki10.getChannelResult()
+ki10.log("Channel Token : " + str(channelToken))
+
 
 print ("Login Succes")
 
@@ -326,7 +321,7 @@ def helpmessage():
                   "╠══[ Status Command ]" + "\n" + \
                   "╠ Restart" + "\n" + \
                   "╠ Runtime" + "\n" + \
-                  "╠ Sp > เช็คความเร็ว " + "\n" + \
+                  "╠ สปีด > เช็คความเร็ว " + "\n" + \
                   "╠ Status" + "\n" + \
                   "╠ About" + "\n" + \
                   "╠══[ Settings Command ]" + "\n" + \
@@ -607,7 +602,7 @@ def lineBot(op):
                     helpTranslate = helptranslate()
                     line.sendMessage(to, str(helpTranslate))
 #==============================================================================#
-                elif text.lower() == 'Sp':
+                elif text.lower() == 'สปีด':
                     start = time.time()
                     line.sendMessage(to, "☞ ŦΣÄM ⚡ъਙЊъনਹਙ์⚡ BOT ☜")
                     elapsed_time = time.time() - start
