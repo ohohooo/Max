@@ -1356,7 +1356,7 @@ def lineBot(op):
                         ki8.sendContact(to, ki8MID)
                         ki9.sendContact(to, ki9MID)
                         ki10.sendContact(to, ki10MID)
-                elif text.lower() in ["ำ"]:    
+                elif text.lower() in ["ออก"]:    
                     #gye.leaveGroup(msg.to)
                     ki1.leaveGroup(msg.to)
                     ki2.leaveGroup(msg.to)
@@ -1368,7 +1368,7 @@ def lineBot(op):
                     ki8.leaveGroup(msg.to)
                     ki9.leaveGroup(msg.to)
                     ki10.leaveGroup(msg.to)                    
-                elif text.lower() in ["ลาก่อน"]:
+                elif text.lower() in ["พร้อม"]:
                     line.leaveGroup(msg.to)
                     ki1.leaveGroup(msg.to)
                     ki2.leaveGroup(msg.to)
@@ -1380,7 +1380,7 @@ def lineBot(op):
                     ki8.leaveGroup(msg.to)
                     ki9.leaveGroup(msg.to)
                     ki10.leaveGroup(msg.to)                  
-                elif text.lower() in ["มาหำ"]:    
+                elif text.lower() in ["เข้าำ"]:    
                     G = line.getGroup(msg.to)
                     ginfo = line.getGroup(msg.to)
                     G.preventedJoinByTicket = False
